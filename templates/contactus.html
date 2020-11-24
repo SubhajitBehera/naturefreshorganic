@@ -1,0 +1,25 @@
+{% extends 'index.html' %}
+{% load static %}
+<head>
+    <style>
+        .centerone {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30%;
+        }
+    </style>
+</head>
+
+{% block common %}
+    <table align="center" border="2">
+    <tr>
+        <th>
+    <img src="{% static 'images/san.jpeg' %}" align="center" style="width: 200px;height: 200px" class="centerone">
+            </th>
+    </tr>
+    </table>
+    <h2 align="center">M.D : <b style="font-family: Georgia">Sanjib Kumar Ghadai</b></h2>
+    <h2 align="center">Mob : 9090090912 , 8917284133</h2>
+    <h2 align="center">E-Mail : <b style="color: #111feb">naturefresh20@gmail.com</b></h2>
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends 'index.html' %}
+{% load static %}
+<head>
+    <style>
+            .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flow;
+}
+</style>
+</head>
+{% block common %}
+    <h2 align="center" style="color: #1728eb"> Jagadalpur , Near Ranital Railway Station NH 16 , Ranital , Bhadrak</h2>
+    <h2 align="center" style="color: #1728eb">Odisha , 756111</h2>
+    <table align="center" border="0">
+    <tr>
+        <th>
+            <img src="{% static 'images/map.png' %}" align="center" style="width: 1000px;height: 700px" class="center">
+        </th>
+    </tr>
+    </table>
+{% endblock %}
